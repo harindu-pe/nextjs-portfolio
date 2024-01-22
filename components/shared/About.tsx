@@ -26,14 +26,6 @@ const infoData = [
     text: "harindu.pe@gmail.com",
   },
   {
-    icon: <Calendar size={20} />,
-    text: "Born on 22 Aug, 1997",
-  },
-  {
-    icon: <GraduationCap size={20} />,
-    text: "Bachelor on Chemical Engineering",
-  },
-  {
     icon: <HomeIcon size={20} />,
     text: "Colombo, Sri Lanka",
   },
@@ -44,19 +36,14 @@ const qualificationData = [
     title: "education",
     data: [
       {
-        university: "High School",
-        qualification: "A Levels",
-        years: "2016 - 2017",
-      },
-      {
         university: "Monash University",
         qualification: "Bachelor of Chemical Engineering (Hons)",
         years: "2017 - 2020",
       },
       {
-        university: "University 2",
-        qualification: "Bachelor of Degree",
-        years: "2020 - 2023",
+        university: "Al Diyafah High School",
+        qualification: "A Levels",
+        years: "2015 - 2016",
       },
     ],
   },
@@ -64,18 +51,13 @@ const qualificationData = [
     title: "experience",
     data: [
       {
+        company: "Self-Employed",
+        role: "Frontend Web Developer",
+        years: "2023 - Present",
+      },
+      {
         company: "Twinery",
-        role: "Tech Entrepreneur",
-        years: "2021 - Present",
-      },
-      {
-        company: "XYZ Corporation",
-        role: "Tech Entrepreneur",
-        years: "2021 - Present",
-      },
-      {
-        company: "XYZ Corporation 2",
-        role: "Tech Entrepreneur",
+        role: "Technology Entrepreneur",
         years: "2021 - Present",
       },
     ],
@@ -87,16 +69,19 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "HTML, CSS",
+        name: "Front-End Development",
       },
       {
-        name: "Front-end Development",
+        name: "Web Design",
       },
       {
-        name: "JavaScript, React",
+        name: "React, NextJS",
       },
       {
-        name: "NextJS, Firebase",
+        name: "SEO Optimization",
+      },
+      {
+        name: "Affordability and Budget Management",
       },
     ],
   },
@@ -104,16 +89,19 @@ const skillData = [
     title: "tools",
     data: [
       {
-        imgPath: "/about/vscode.svg",
+        imgPath: "/about/javascript.svg",
       },
       {
-        imgPath: "/about/figma.svg",
+        imgPath: "/about/react.svg",
       },
       {
-        imgPath: "/about/notion.svg",
+        imgPath: "/about/nextjs.svg",
       },
       {
-        imgPath: "/about/wordpress.svg",
+        imgPath: "/about/firebase.svg",
+      },
+      {
+        imgPath: "/about/sanity.svg",
       },
     ],
   },
@@ -135,7 +123,7 @@ const About = () => {
           <div className="hidden xl:flex flex-1 relative">
             <DevImg
               containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
-              imgSrc="/about/developer.png"
+              imgSrc={null}
             />
           </div>
           {/* tabs */}
@@ -159,13 +147,11 @@ const About = () => {
                 {/* personal */}
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">
-                      Unmatched Service Quality for Over 2 Years
-                    </h3>
+                    <h3 className="h3 mb-4">Where Creativity Meets Code</h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I specialize in crafting intuitive websites with
-                      cutting-edge technology, delivering dynamic and engaging
-                      user experiences.
+                      My expertise lies in creating user-friendly websites
+                      tailored to your personal brand and preferences, all while
+                      being super affordable.
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -182,11 +168,11 @@ const About = () => {
                       })}
                     </div>
                     {/* languages */}
-                    <div className="flex flex-col gap-y-2">
+                    {/* <div className="flex flex-col gap-y-2">
                       <div className="text-primary">Language Skill</div>
                       <div className="border-b border-border"></div>
                       <div>English, Sinhala</div>
-                    </div>
+                    </div> */}
                   </div>
                 </TabsContent>
                 {/* qualifications */}
@@ -273,7 +259,7 @@ const About = () => {
                 {/* skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">What I Use Everyday</h3>
+                    <h3 className="h3 mb-8">My Areas of Expertise</h3>
                     {/* skills */}
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
@@ -298,7 +284,7 @@ const About = () => {
                     {/* tools */}
                     <div>
                       <h4 className="text-xl font-semibold mb-2 xl:text-left">
-                        Tools
+                        Stack
                       </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* tool list */}
@@ -314,6 +300,7 @@ const About = () => {
                                   height={48}
                                   alt=""
                                   priority
+                                  className=""
                                 />
                               </div>
                             );

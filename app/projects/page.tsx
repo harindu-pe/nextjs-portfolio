@@ -6,76 +6,58 @@ import ProjectCard from "@/components/shared/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/4.png",
-    category: "react js",
-    name: "Nexa Website",
+    image: "/work/pixelstory.png",
+    category: "NextJS",
+    name: "PixelStory",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
+      "Welcome to PixelStory, where the intersection of modern tools and technology meets the art of navigating life's complexities.",
+    link: "https://pixelstory.vercel.app/",
     github: "/",
   },
   {
-    image: "/work/3.png",
-    category: "javascript",
-    name: "Solstice Website",
+    image: "/work/brewhub.png",
+    category: "NextJS",
+    name: "Brew Hub",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
+      "Welcome to BrewHaven, where every cup tells a story! Immerse yourself in the warm and inviting atmosphere of our coffee haven.",
+    link: "https://nextjs-restaurant-xi.vercel.app/",
     github: "/",
   },
   {
-    image: "/work/2.png",
-    category: "javascript",
-    name: "Luma Website",
+    image: "/work/convene.png",
+    category: "NextJS",
+    name: "Convene",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
+      "Connect to a global community and create your events on our platform. Explore trending events in your community.",
+    link: "https://convene-phi.vercel.app/",
     github: "/",
   },
   {
-    image: "/work/1.png",
-    category: "react js",
-    name: "Ignite Website",
+    image: "/work/artplatform.png",
+    category: "React",
+    name: "Art Platform",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
+      "Our art platform project seamlessly connects creators with enthusiasts, offering a vibrant space to showcase and discover",
+    link: "https://art-project-31cb3.web.app/",
     github: "/",
   },
   {
-    image: "/work/4.png",
-    category: "fullstack",
-    name: "Nexa Website",
+    image: "/work/calculator.png",
+    category: "JavaScript",
+    name: "Calculator",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
-    github: "/",
+      "Designed for efficiency and ease, this digital tool simplifies complex calculations, providing accuracy and convenience.",
+    link: "https://harindu-pe.github.io/project-calculator/",
+    github: "https://harindu-pe.github.io/project-calculator/",
   },
   {
-    image: "/work/3.png",
-    category: "react js",
-    name: "Solstice Website",
+    image: "/work/tictactoe.png",
+    category: "JavaScript",
+    name: "Tic Tac Toe",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/2.png",
-    category: "react js",
-    name: "Luma Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "react js",
-    name: "Ignite Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
-    github: "/",
+      "Dive into classic fun with our Tic-Tac-Toe project. This digital twist on the timeless game brings entertainment to your fingertips.",
+    link: "https://harindu-pe.github.io/project-tic-tac-toe/",
+    github: "https://harindu-pe.github.io/project-tic-tac-toe/",
   },
 ];
 

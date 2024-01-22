@@ -16,6 +16,13 @@ import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
 
+const heroData = {
+  job: "Web Developer",
+  header: "Hello, my name is Harindu",
+  description:
+    "I specialize in creating dynamic and visually stunning websites that exceed your expectations.",
+};
+
 const Hero = () => {
   return (
     <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
@@ -24,12 +31,11 @@ const Hero = () => {
           {/* text */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Web Developer
+              {heroData.job}
             </div>
-            <h1 className="h1">Hello, my name is Harindu</h1>
+            <h1 className="h1">{heroData.header}</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brief Description with insights into myself, my vocational
-              journey, and what I engage in professionally.
+              {heroData.description}
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -38,9 +44,9 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2 ">
+              {/* <Button variant="secondary" className="gap-x-2 ">
                 Download CV <Download size={18} />
-              </Button>
+              </Button> */}
             </div>
             {/* Socials */}
             <Socials
@@ -54,30 +60,30 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[24%] -left-[5rem]"
               icon={<RiBriefcase4Fill />}
-              endCountNum={3}
+              endCountNum={1}
               endCountText=""
-              badgeText="Years Of Experience"
+              badgeText="Year Of Experience"
             />
             {/* badge 2 */}
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={6}
-              endCountText="k"
+              endCountNum={10}
+              endCountText=""
               badgeText="Finished Projects"
             />
             {/* badge 3 */}
             <Badge
               containerStyles="absolute top-[55%] -right-8"
               icon={<RiTeamFill />}
-              endCountNum={9}
-              endCountText="k"
+              endCountNum={5}
+              endCountText=""
               badgeText="Happy Clients"
             />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
               containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-              imgSrc="/hero/developer.png"
+              imgSrc={null}
             />
           </div>
         </div>

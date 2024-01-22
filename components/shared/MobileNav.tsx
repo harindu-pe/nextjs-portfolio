@@ -1,11 +1,19 @@
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetClose,
+} from "@/components/ui/sheet";
 import { AlignJustify } from "lucide-react";
+import { useState } from "react";
 
 import Nav from "./Nav";
 import Logo from "./Logo";
 import Socials from "./Socials";
 
 const MobileNav = () => {
+  const [sheetOpen, setSheetOpen] = useState(false);
+
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -17,8 +25,9 @@ const MobileNav = () => {
             <Logo />
             <Nav
               containerStyles="flex flex-col items-center gap-y-6"
-              linkStyles="text-2xl"
-              underlineStyles=""
+              linkStyles="relative text-2xl"
+              underlineStyles="absolute left-o top-full h-[2px] bg-primary w-full"
+              SheetClose={SheetClose}
             />
           </div>
           <Socials containerStyles="flex gap-x-4" iconStyles="text-2xl" />

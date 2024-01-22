@@ -17,39 +17,30 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
-    image: "/work/4.png",
-    category: "react js",
-    name: "Nexa Website",
+    image: "/work/pixelstory.png",
+    category: "NextJS",
+    name: "PixelStory",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
+      "Welcome to PixelStory, where the intersection of modern tools and technology meets the art of navigating life's complexities.",
+    link: "https://pixelstory.vercel.app/",
     github: "/",
   },
   {
-    image: "/work/3.png",
-    category: "react js",
-    name: "Solstice Website",
+    image: "/work/brewhub.png",
+    category: "NextJS",
+    name: "Brew Hub",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
+      "Welcome to BrewHaven, where every cup tells a story! Immerse yourself in the warm and inviting atmosphere of our coffee haven.",
+    link: "https://nextjs-restaurant-xi.vercel.app/",
     github: "/",
   },
   {
-    image: "/work/2.png",
-    category: "react js",
-    name: "Luma Website",
+    image: "/work/convene.png",
+    category: "NextJS",
+    name: "Convene",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "react js",
-    name: "Ignite Website",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem",
-    link: "/",
+      "Connect to a global community and create your events on our platform. Explore trending events in your community.",
+    link: "https://convene-phi.vercel.app/",
     github: "/",
   },
 ];
@@ -61,9 +52,7 @@ const Work = () => {
         {/* text */}
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
-          <p className="subtitle mb-8 ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
+          <p className="subtitle mb-8 ">Explore my recent projects</p>
           <Link href="/projects">
             <Button>All projects</Button>
           </Link>
@@ -71,7 +60,7 @@ const Work = () => {
         {/* slider */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           <Swiper
-            className="h-[480px]"
+            className="h-[520px]"
             slidesPerView={1}
             breakpoints={{
               640: {

@@ -10,21 +10,21 @@ import {
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Web Design",
+    title: "Front-End Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectusiure tempore sunt veritatis beatae voluptate.",
+      "Translating creative visions into interactive and user-friendly websites. Through mastery of HTML, CSS, and JavaScript, I craft visually stunning and responsive interfaces that ensure an optimal user experience across various devices.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: "Web Development",
+    title: "Web Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectusiure tempore sunt veritatis beatae voluptate.",
+      "Proficient in UI/UX principles and design tools, I create visually compelling layouts, seamless navigation, and an overall engaging visual identity that resonates with your audience.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "App Development",
+    title: "Affordability",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectusiure tempore sunt veritatis beatae voluptate.",
+      "Delivering top-tier web solutions within budget constraints through cost-effective development practices and transparent communication, ensuring your digital goals are achieved with financial sensibility.",
   },
 ];
 
