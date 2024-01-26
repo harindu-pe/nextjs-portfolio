@@ -120,11 +120,16 @@ const About = () => {
         </h2>
         <div className="flex flex-col xl:flex-row">
           {/* image */}
-          <div className="hidden xl:flex flex-1 relative">
-            <DevImg
-              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
-              imgSrc={null}
-            />
+          <div className="hidden xl:flex h-[530px] flex-1 relative bg-about_shape_light dark:bg-about_shape_dark bg-no-repeat items-center">
+            <div className="w-[229px] h-[354px] relative ml-44 mb-10">
+              <Image
+                src="/about/profile.png"
+                fill
+                priority
+                alt="hero"
+                className="rounded-3xl object-cover"
+              />
+            </div>
           </div>
           {/* tabs */}
           <div className="flex-1">

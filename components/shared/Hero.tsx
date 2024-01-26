@@ -50,15 +50,15 @@ const Hero = () => {
             </div>
             {/* Socials */}
             <Socials
-              containerStyles="flex gap-x-6 mx-auto xl:mx-0"
+              containerStyles="flex gap-x-6 mx-auto xl:ml-4"
               iconStyles="text-foreground text-[22px] hover:text-primary transition-all"
             />
           </div>
           {/* image */}
-          <div className="hidden xl:flex relative">
+          <div className="hidden xl:flex relative w-[550px] ">
             {/* badge 1 */}
             <Badge
-              containerStyles="absolute top-[24%] -left-[5rem]"
+              containerStyles="absolute top-[5%] -left-[3rem]"
               icon={<RiBriefcase4Fill />}
               endCountNum={1}
               endCountText=""
@@ -66,7 +66,7 @@ const Hero = () => {
             />
             {/* badge 2 */}
             <Badge
-              containerStyles="absolute top-[80%] -left-[1rem]"
+              containerStyles="absolute top-[80%] -left-[6rem]"
               icon={<RiTodoFill />}
               endCountNum={10}
               endCountText=""
@@ -74,17 +74,13 @@ const Hero = () => {
             />
             {/* badge 3 */}
             <Badge
-              containerStyles="absolute top-[55%] -right-8"
+              containerStyles="absolute top-[25%] -right-10"
               icon={<RiTeamFill />}
               endCountNum={5}
               endCountText=""
               badgeText="Happy Clients"
             />
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
-            <DevImg
-              containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-              imgSrc={null}
-            />
+            <DevImg containerStyles="relative w-full" imgSrc="/hero/hero.jpg" />
           </div>
         </div>
         {/* icons */}
