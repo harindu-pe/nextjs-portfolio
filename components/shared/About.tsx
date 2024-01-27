@@ -266,7 +266,7 @@ const About = () => {
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-8">My Areas of Expertise</h3>
                     {/* skills */}
-                    <div className="mb-16">
+                    <div className="mb-16 ">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* skill list */}
@@ -276,7 +276,7 @@ const About = () => {
                             const { name } = item;
                             return (
                               <div
-                                className="w-2/4 text-center xl:text-left mx-auto xl:mx-0"
+                                className="w-3/4 text-center xl:text-left mx-auto xl:mx-0"
                                 key={index}
                               >
                                 <div className="font-medium">{name}</div>

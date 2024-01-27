@@ -1,7 +1,7 @@
 import { MailIcon, HomeIcon, PhoneCall } from "lucide-react";
 
 // components
-import Form from "@/components/shared/Form";
+import ContactForm from "@/components/shared/ContactForm";
 
 const Contact = () => {
   return (
@@ -17,8 +17,9 @@ const Contact = () => {
             </div>
             <h1 className="h1 max-w-md mb-8">{`Let's work Together`}</h1>
             <p className="subtitle max-w-[400px]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Expedita, id?
+              {
+                "Let's Connect! Have questions, ideas, or ready to kickstart your next web project?"
+              }
             </p>
           </div>
           {/* illustration */}
@@ -27,7 +28,7 @@ const Contact = () => {
         {/* info text & form */}
         <div className="grid xl:grid-cols-2 mb-24 xl:mb-32">
           {/* info text */}
-          <div className="flex flex-col gap-y-4 xl:gap-y-14 mb-12 xl:mb-24 text-base lg:text-lg">
+          <div className="flex flex-col gap-y-4 xl:gap-y-8 mb-12 xl:mb-24 text-base lg:text-lg">
             {/* mail */}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary" />
@@ -44,9 +45,7 @@ const Contact = () => {
               <div>+94 76 8815 834</div>
             </div>
           </div>
-          <form>
-            <Form />
-          </form>
+          <ContactForm />
         </div>
       </div>
     </section>

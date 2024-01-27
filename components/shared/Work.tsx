@@ -30,7 +30,7 @@ const projectData = [
     category: "NextJS",
     name: "Brew Hub",
     description:
-      "Welcome to BrewHaven, where every cup tells a story! Immerse yourself in the warm and inviting atmosphere of our coffee haven.",
+      "Welcome to BrewHaven, where every cup tells a story! Immerse yourself in the warm atmosphere of our coffee haven.",
     link: "https://nextjs-restaurant-xi.vercel.app/",
     github: "/",
   },

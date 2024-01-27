@@ -5,8 +5,12 @@ import "./globals.css";
 // components
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
+
 // theme provider
 import ThemeProvider from "@/components/shared/ThemeProvider";
+
+// toaster
+import { Toaster } from "@/components/ui/toaster";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -30,6 +34,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

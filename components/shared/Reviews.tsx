@@ -16,45 +16,24 @@ import { Pagination } from "swiper/modules";
 const reviewsData = [
   {
     avatar: "/reviews/avatar-1.png",
-    name: "Richard Thompson",
-    job: "Chef",
+    name: "Alex Johnson",
+    job: "Marketing Manager",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officiis!",
+      "The collaborative approach and attention to detail exceeded our expectations. We now have a site that not only looks fantastic but also performs seamlessly.",
   },
   {
     avatar: "/reviews/avatar-2.png",
-    name: "Richard Thompson",
-    job: "Chef",
+    name: "Emily Martinez",
+    job: "Graphic Designer",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officiis!",
+      "As a fellow creative professional, I appreciate the seamless integration of design and functionality.",
   },
   {
     avatar: "/reviews/avatar-3.png",
-    name: "Richard Thompson",
-    job: "Chef",
+    name: "Jason Thompson",
+    job: "IT Director",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officiis!",
-  },
-  {
-    avatar: "/reviews/avatar-4.png",
-    name: "Richard Thompson",
-    job: "Chef",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officiis!",
-  },
-  {
-    avatar: "/reviews/avatar-5.png",
-    name: "Richard Thompson",
-    job: "Chef",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officiis!",
-  },
-  {
-    avatar: "/reviews/avatar-6.png",
-    name: "Richard Thompson",
-    job: "Chef",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officiis!",
+      "The website not only meets our current needs but is also future-proof. Harindu is our go-to web developer for any digital undertaking.",
   },
 ];
 
