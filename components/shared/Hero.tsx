@@ -17,7 +17,7 @@ import Badge from "./Badge";
 import Socials from "./Socials";
 
 const heroData = {
-  job: "Web Developer | Web Designer",
+  job: "Web Developer",
   header: "Hello, my name is Harindu",
   description:
     "I specialize in creating dynamic and visually stunning websites that exceed your expectations.",
