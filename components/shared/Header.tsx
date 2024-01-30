@@ -35,14 +35,14 @@ const Header = () => {
           <div className="flex items-center gap-x-6">
             {/* nav    */}
             <Nav
-              containerStyles="hidden xl:flex gap-x-8 items-center"
+              containerStyles="hidden lg:flex gap-x-8 items-center"
               linkStyles="relative hover:text-primary transition all"
               underlineStyles="absolute left-o top-full h-[2px] bg-primary w-full"
               SheetClose={null}
             />
             <ThemeToggler />
             {/* mobile nav */}
-            <div className="xl:hidden">
+            <div className="lg:hidden">
               <MobileNav />
             </div>
           </div>

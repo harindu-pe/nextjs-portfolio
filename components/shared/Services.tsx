@@ -12,7 +12,7 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Front-End Development",
     description:
-      "Translating creative visions into reality. Through mastery of HTML, CSS, and JavaScript, I craft visually stunning and responsive interfaces that ensure an optimal user experience across various devices.",
+      "Translating creative visions into reality. I craft visually stunning and responsive interfaces that ensure an optimal user experience across various devices while being performant and SEO optimized.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
@@ -24,7 +24,7 @@ const servicesData = [
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "Affordability",
     description:
-      "Delivering top-tier web solutions within budget constraints through cost-effective development practices and transparent communication, ensuring your digital goals are achieved with financial sensibility.",
+      "Delivering top-tier web solutions within budget constraints ensuring your digital goals are achieved with financial sensibility.",
   },
 ];
 

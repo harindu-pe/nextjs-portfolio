@@ -17,7 +17,7 @@ import Badge from "./Badge";
 import Socials from "./Socials";
 
 const heroData = {
-  job: "Web Developer",
+  job: "Web Developer | Web Designer",
   header: "Hello, my name is Harindu",
   description:
     "I specialize in creating dynamic and visually stunning websites that exceed your expectations.",
@@ -34,7 +34,7 @@ const Hero = () => {
               {heroData.job}
             </div>
             <h1 className="h1">{heroData.header}</h1>
-            <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
+            <p className="subtitle mt-3 max-w-[490px] mx-auto xl:mx-0">
               {heroData.description}
             </p>
             {/* buttons */}
