@@ -157,8 +157,8 @@ const About = () => {
                       overall less effective. I aim to prevent this with the way
                       I design websites.
                       <span className="block mt-4 italic text-md">
-                        "My goal is to create value in terms of increased
-                        customer engagement for your business."
+                        &quot;My goal is to create value in terms of increased
+                        customer engagement for your business.&quot;
                       </span>
                     </p>
 
