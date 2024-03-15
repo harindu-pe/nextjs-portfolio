@@ -15,6 +15,15 @@ const projectData = [
     github: "/",
   },
   {
+    image: "/work/webcraft.png",
+    category: "NextJS",
+    name: "WebCraft",
+    description:
+      "Portfolio for developer that specialize in creating dynamic and visually stunning websites that exceed your expectations.",
+    link: "https://webcraft-tau.vercel.app/",
+    github: "/",
+  },
+  {
     image: "/work/brewhub.png",
     category: "NextJS",
     name: "Brew Hub",
@@ -49,15 +58,6 @@ const projectData = [
       "Designed for efficiency and ease, this digital tool simplifies complex calculations, providing accuracy and convenience.",
     link: "https://harindu-pe.github.io/project-calculator/",
     github: "https://harindu-pe.github.io/project-calculator/",
-  },
-  {
-    image: "/work/tictactoe.png",
-    category: "JavaScript",
-    name: "Tic Tac Toe",
-    description:
-      "Dive into classic fun with our Tic-Tac-Toe project. This digital twist on the timeless game brings entertainment to your fingertips.",
-    link: "https://harindu-pe.github.io/project-tic-tac-toe/",
-    github: "https://harindu-pe.github.io/project-tic-tac-toe/",
   },
 ];
 

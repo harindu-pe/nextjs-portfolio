@@ -1,3 +1,5 @@
+"use client";
+
 // next link
 import Link from "next/link";
 
@@ -11,6 +13,10 @@ import {
   RiArrowDownSLine,
 } from "react-icons/ri";
 
+// animation
+import Lottie from "lottie-react";
+var designStudioAnimation = require("/public/animations/designStudio.json");
+
 // components
 import DevImg from "./DevImg";
 import Badge from "./Badge";
@@ -18,9 +24,9 @@ import Socials from "./Socials";
 
 const heroData = {
   job: "Web Developer",
-  header: "Hello, my name is Harindu",
+  header: "Unbeatable Websites For Small Businesses",
   description:
-    "I specialize in creating dynamic and visually stunning websites that exceed your expectations.",
+    "I make premium budget-friendly websites for businesses who want an online presence to drive customer engagement and gain increased conversions.",
 };
 
 const Hero = () => {
@@ -55,12 +61,18 @@ const Hero = () => {
             />
           </div>
           {/* image */}
-          <div className="hidden xl:flex relative w-[550px] ">
+          <div className="hidden xl:flex relative w-[600px]">
+            <Lottie
+              animationData={designStudioAnimation}
+              loop={true}
+              className=" relative -left-20"
+            />
+
             {/* badge 1 */}
             <Badge
               containerStyles="absolute top-[5%] -left-[3rem]"
               icon={<RiBriefcase4Fill />}
-              endCountNum={1}
+              endCountNum={2}
               endCountText=""
               badgeText="Year Of Experience"
             />
@@ -68,7 +80,7 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[80%] -left-[6rem]"
               icon={<RiTodoFill />}
-              endCountNum={10}
+              endCountNum={8}
               endCountText=""
               badgeText="Finished Projects"
             />
@@ -76,11 +88,10 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[25%] -right-10"
               icon={<RiTeamFill />}
-              endCountNum={5}
+              endCountNum={10}
               endCountText=""
               badgeText="Happy Clients"
             />
-            <DevImg containerStyles="relative w-full" imgSrc="/hero/hero.jpg" />
           </div>
         </div>
         {/* icons */}

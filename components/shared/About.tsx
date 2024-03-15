@@ -1,15 +1,13 @@
-import Image from "next/image";
-import DevImg from "./DevImg";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Image from "next/image";
 
 import {
-  User2,
-  MailIcon,
-  HomeIcon,
-  PhoneCall,
-  GraduationCap,
-  Calendar,
   Briefcase,
+  GraduationCap,
+  HomeIcon,
+  MailIcon,
+  PhoneCall,
+  User2,
 } from "lucide-react";
 
 const infoData = [
@@ -51,7 +49,7 @@ const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "Self-Employed",
+        company: "Freelance",
         role: "Frontend Web Developer",
         years: "2023 - Present",
       },
@@ -121,9 +119,9 @@ const About = () => {
         <div className="flex flex-col xl:flex-row">
           {/* image */}
           <div className="hidden xl:flex h-[530px] flex-1 relative bg-about_shape_light dark:bg-about_shape_dark bg-no-repeat items-center">
-            <div className="w-[229px] h-[354px] relative ml-44 mb-10">
+            <div className="relative w-full h-[300px] -left-24">
               <Image
-                src="/about/profile.png"
+                src="/about/thinking.svg"
                 fill
                 priority
                 alt="hero"
@@ -154,10 +152,16 @@ const About = () => {
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">Where Creativity Meets Code</h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      My expertise lies in creating user-friendly websites
-                      tailored to your personal brand and preferences, all while
-                      being super affordable.
+                      Most websites do not follow both basic and advanced UX
+                      design practices which makes it harder to understand, and
+                      overall less effective. I aim to prevent this with the way
+                      I design websites.
+                      <span className="block mt-4 italic text-md">
+                        "My goal is to create value in terms of increased
+                        customer engagement for your business."
+                      </span>
                     </p>
+
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {

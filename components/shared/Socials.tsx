@@ -14,7 +14,7 @@ const icons = [
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.instagram.com/sir_hpe/",
     name: <RiInstagramFill />,
   },
 ];
