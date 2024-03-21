@@ -10,6 +10,11 @@ import {
   User2,
 } from "lucide-react";
 
+import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
+import { SiNextdotjs, SiGreensock, SiSanity, SiPrismic } from "react-icons/si";
+import { FiFramer } from "react-icons/fi";
+
 const infoData = [
   {
     icon: <User2 size={20} />,
@@ -67,19 +72,19 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "Front-End Development",
-      },
-      {
         name: "Web Design",
       },
       {
-        name: "React, NextJS",
+        name: "Typography & Colors",
       },
       {
-        name: "SEO Optimization",
+        name: "UI/UX Design",
       },
       {
-        name: "Budget Management",
+        name: "SEO",
+      },
+      {
+        name: "Animations - Framer Motion & GSAP",
       },
     ],
   },
@@ -87,19 +92,28 @@ const skillData = [
     title: "tools",
     data: [
       {
-        imgPath: "/about/javascript.svg",
+        icon: IoLogoJavascript,
       },
       {
-        imgPath: "/about/react.svg",
+        icon: FaReact,
       },
       {
-        imgPath: "/about/nextjs.svg",
+        icon: SiNextdotjs,
       },
       {
-        imgPath: "/about/firebase.svg",
+        icon: IoLogoFirebase,
       },
       {
-        imgPath: "/about/sanity.svg",
+        icon: FiFramer,
+      },
+      {
+        icon: SiGreensock,
+      },
+      {
+        icon: SiSanity,
+      },
+      {
+        icon: SiPrismic,
       },
     ],
   },
@@ -177,11 +191,11 @@ const About = () => {
                       })}
                     </div>
                     {/* languages */}
-                    {/* <div className="flex flex-col gap-y-2">
-                      <div className="text-primary">Language Skill</div>
+                    <div className="flex flex-col gap-y-2">
+                      <div className="text-primary">Languages</div>
                       <div className="border-b border-border"></div>
                       <div>English, Sinhala</div>
-                    </div> */}
+                    </div>
                   </div>
                 </TabsContent>
                 {/* qualifications */}
@@ -297,20 +311,12 @@ const About = () => {
                       </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* tool list */}
-                      <div className="flex gap-x-8 justify-center xl:justify-start">
+                      <div className="flex gap-6 justify-center xl:justify-start flex-wrap">
                         {getData(skillData, "tools").data.map(
                           (item: any, index: any) => {
-                            const { imgPath } = item;
                             return (
                               <div key={index}>
-                                <Image
-                                  src={imgPath}
-                                  width={48}
-                                  height={48}
-                                  alt=""
-                                  priority
-                                  className=""
-                                />
+                                <item.icon size={40} />
                               </div>
                             );
                           }

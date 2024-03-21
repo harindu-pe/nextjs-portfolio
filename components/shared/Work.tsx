@@ -17,30 +17,30 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
+    image: "/work/glisten.png",
+    category: "NextJS",
+    name: "Glisten AI",
+    description:
+      "Dark Modern Animated Website with Next.js 14, GSAP, Prismic, Tailwind, and TypeScript ",
+    link: "https://glisten-ai.vercel.app/",
+    github: "https://github.com/harindu-pe/glisten",
+  },
+  {
+    image: "/work/webcraft.png",
+    category: "NextJS",
+    name: "WebCraft",
+    description:
+      "Portfolio for developer that specialize in creating dynamic and visually stunning websites that exceed your expectations.",
+    link: "https://webcraft-tau.vercel.app/",
+    github: "/",
+  },
+  {
     image: "/work/pixelstory.png",
     category: "NextJS",
     name: "PixelStory",
     description:
       "Welcome to PixelStory, where the intersection of modern tools and technology meets the art of navigating life's complexities.",
     link: "https://pixelstory.vercel.app/",
-    github: "/",
-  },
-  {
-    image: "/work/brewhub.png",
-    category: "NextJS",
-    name: "Brew Hub",
-    description:
-      "Welcome to BrewHaven, where every cup tells a story! Immerse yourself in the warm atmosphere of our coffee haven.",
-    link: "https://nextjs-restaurant-xi.vercel.app/",
-    github: "/",
-  },
-  {
-    image: "/work/convene.png",
-    category: "NextJS",
-    name: "Convene",
-    description:
-      "Connect to a global community and create your events on our platform. Explore trending events in your community.",
-    link: "https://convene-phi.vercel.app/",
     github: "/",
   },
 ];

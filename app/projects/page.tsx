@@ -6,6 +6,15 @@ import ProjectCard from "@/components/shared/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/glisten.png",
+    category: "NextJS",
+    name: "Glisten AI",
+    description:
+      "Dark Modern Animated Website with Next.js 14, GSAP, Prismic, Tailwind, and TypeScript ",
+    link: "https://glisten-ai.vercel.app/",
+    github: "https://github.com/harindu-pe/glisten",
+  },
+  {
     image: "/work/pixelstory.png",
     category: "NextJS",
     name: "PixelStory",
