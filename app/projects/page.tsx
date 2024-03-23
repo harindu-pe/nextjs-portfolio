@@ -15,6 +15,15 @@ const projectData = [
     github: "https://github.com/harindu-pe/glisten",
   },
   {
+    image: "/work/apple.png",
+    category: "Vite",
+    name: "Apple Template",
+    description:
+      "An Apple-esque Website using React | Beginner Three.js & GSAP. ",
+    link: "https://landing-page-apple-three.vercel.app/",
+    github: "https://github.com/harindu-pe/landing-page-apple",
+  },
+  {
     image: "/work/pixelstory.png",
     category: "NextJS",
     name: "PixelStory",
@@ -28,7 +37,7 @@ const projectData = [
     category: "NextJS",
     name: "WebCraft",
     description:
-      "Portfolio for developer that specialize in creating dynamic and visually stunning websites that exceed your expectations.",
+      "Portfolio for developer that specialize in creating visually stunning websites that exceed expectations.",
     link: "https://webcraft-tau.vercel.app/",
     github: "/",
   },
@@ -58,15 +67,6 @@ const projectData = [
       "Our art platform project seamlessly connects creators with enthusiasts, offering a vibrant space to showcase and discover",
     link: "https://art-project-31cb3.web.app/",
     github: "/",
-  },
-  {
-    image: "/work/calculator.png",
-    category: "JavaScript",
-    name: "Calculator",
-    description:
-      "Designed for efficiency and ease, this digital tool simplifies complex calculations, providing accuracy and convenience.",
-    link: "https://harindu-pe.github.io/project-calculator/",
-    github: "https://harindu-pe.github.io/project-calculator/",
   },
 ];
 
