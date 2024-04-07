@@ -10,9 +10,18 @@ const projectData = [
     category: "NextJS",
     name: "Glisten AI",
     description:
-      "Dark Modern Animated Website with Next.js 14, GSAP, Prismic, Tailwind, and TypeScript ",
+      "Dark Modern Animated Website with Next.js 14, GSAP, Prismic, Tailwind, and TypeScript",
     link: "https://glisten-ai.vercel.app/",
     github: "https://github.com/harindu-pe/glisten",
+  },
+  {
+    image: "/work/flowrise.png",
+    category: "NextJS",
+    name: "Flowrise",
+    description:
+      "Modern Landing Page with Next.js 14, Prismic, Tailwind, and TypeScript",
+    link: "https://landing-page-flowrise.vercel.app/",
+    github: "https://github.com/harindu-pe/landing-page-flowrise",
   },
   {
     image: "/work/apple.png",
