@@ -21,18 +21,27 @@ const projectData = [
     category: "NextJS",
     name: "Glisten AI",
     description:
-      "Dark Modern Animated Website with Next.js 14, GSAP, Prismic, Tailwind, and TypeScript ",
+      "Dark Modern Animated Website with Next.js 14, GSAP, Prismic, Tailwind, and TypeScript",
     link: "https://glisten-ai.vercel.app/",
     github: "https://github.com/harindu-pe/glisten",
   },
   {
-    image: "/work/webcraft.png",
+    image: "/work/flowrise.png",
     category: "NextJS",
-    name: "WebCraft",
+    name: "Flowrise",
     description:
-      "Portfolio for developer that specialize in creating dynamic and visually stunning websites that exceed your expectations.",
-    link: "https://webcraft-tau.vercel.app/",
-    github: "/",
+      "Modern Landing Page with Next.js 14, Prismic, Tailwind, and TypeScript",
+    link: "https://landing-page-flowrise.vercel.app/",
+    github: "https://github.com/harindu-pe/landing-page-flowrise",
+  },
+  {
+    image: "/work/apple.png",
+    category: "Vite",
+    name: "Apple Template",
+    description:
+      "An Apple-esque Website using React | Beginner Three.js & GSAP. ",
+    link: "https://landing-page-apple-three.vercel.app/",
+    github: "https://github.com/harindu-pe/landing-page-apple",
   },
   {
     image: "/work/pixelstory.png",
@@ -41,6 +50,42 @@ const projectData = [
     description:
       "Welcome to PixelStory, where the intersection of modern tools and technology meets the art of navigating life's complexities.",
     link: "https://pixelstory.vercel.app/",
+    github: "/",
+  },
+  {
+    image: "/work/webcraft.png",
+    category: "NextJS",
+    name: "WebCraft",
+    description:
+      "Portfolio for developer that specialize in creating visually stunning websites that exceed expectations.",
+    link: "https://webcraft-tau.vercel.app/",
+    github: "/",
+  },
+  {
+    image: "/work/brewhub.png",
+    category: "NextJS",
+    name: "Brew Hub",
+    description:
+      "Welcome to BrewHaven, where every cup tells a story! Immerse yourself in the warm atmosphere of our coffee haven.",
+    link: "https://nextjs-restaurant-xi.vercel.app/",
+    github: "/",
+  },
+  {
+    image: "/work/convene.png",
+    category: "NextJS",
+    name: "Convene",
+    description:
+      "Connect to a global community and create your events on our platform. Explore trending events in your community.",
+    link: "https://convene-phi.vercel.app/",
+    github: "/",
+  },
+  {
+    image: "/work/artplatform.png",
+    category: "React",
+    name: "Art Platform",
+    description:
+      "Our art platform project seamlessly connects creators with enthusiasts, offering a vibrant space to showcase and discover",
+    link: "https://art-project-31cb3.web.app/",
     github: "/",
   },
 ];
