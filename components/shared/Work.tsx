@@ -35,6 +35,15 @@ const projectData = [
     github: "https://github.com/harindu-pe/landing-page-flowrise",
   },
   {
+    image: "/work/author.png",
+    category: "NextJS",
+    name: "3D Animated Portfolio",
+    description:
+      "Stunning 3D Animated Portfolio Website with Next.js 14, Three.js, GSAP, and Prismic",
+    link: "https://landing-page-author.vercel.app/",
+    github: "https://github.com/harindu-pe/landing-page-author",
+  },
+  {
     image: "/work/apple.png",
     category: "Vite",
     name: "Apple Template",
